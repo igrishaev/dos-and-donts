@@ -67,7 +67,7 @@
 
 ### [Code](#code)
 
-- Don't align you code with spaces like it shown below. Use one space only.
+- Don't align you code with spaces like it's shown below. Use one space only.
 
   ```python
   foo = {
@@ -77,7 +77,7 @@
   }
   ```
 
-- Classes are not data. Prefer plain data structures as lists and maps over
+- Classes are not data. Prefer plain data structures like lists and maps over
   classes. Usually, structures are fast and covers the most of requirements.
 
 - Try to follow functional approach when develop a program. Avoid keeping state
@@ -89,8 +89,9 @@
   TypeScrip or Elm to develop without a pain in the ass. Consider JS as
   necessary evil needed under the hood.
 
-- Don't make SAP (single page applications). Usually they work poor, the layout
-  leaks, you cannot open a link in a new window what is breaking W3C standards.
+- Don't make SAPs (single page applications). Usually they work poorly, the
+  layout leaks, you cannot open a link in a new window what is breaking W3C
+  standards.
 
 ### [Architecture](#architecture)
 
@@ -123,6 +124,8 @@
   them rarely.
 
 - Turn off all the notifications on you phone/desktop.
+
+- Don't work in an openspace. A room with 3-4 people around is OK.
 
 - Don't read the news. Your friends will warn you if something really important
   happens.
