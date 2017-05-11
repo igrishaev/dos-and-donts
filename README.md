@@ -76,6 +76,8 @@
     "very-very-long-one": 3,
   }
   ```
+- Write unit tests for both server and UI sides immediately once you've started
+  a new project.
 
 - Classes are not data. Prefer plain data structures like lists and maps over
   classes. Usually, structures are fast and covers the most of requirements.
@@ -104,6 +106,13 @@
 - Writing logs in file and `tail`ing them via SSH is a mess. Write all the logs
   into (remote) syslog, either your own or SaaS. Syslog brings huge capabilities
   with logs processing.
+
+- Never commit to the master branch directly (set it up into your Git
+  config). Use the simpliest Git pipeline you can imagine:
+
+  ```
+  master -> feature-branch -> commits -> pull request -> review -> merge
+  ```
 
 ### [Programming languages](#lang)
 
