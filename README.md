@@ -1,4 +1,3 @@
-
 ### [Database](#database)
 
 - Avoid using nullable fields in your DB. Put `not null` everywhere you can when
@@ -89,7 +88,7 @@
 
 - Don't use vanilla Javascript. Use such modern technologies as ClojureScript,
   TypeScrip or Elm to develop without a pain in the ass. Consider JS as
-  necessary evil needed under the hood.
+  necessary evil needed under the hood to ship your application.
 
 - Don't make SAPs (single page applications). Usually they work poorly, the
   layout leaks, you cannot open a link in a new window what is breaking W3C
@@ -107,8 +106,8 @@
   into (remote) syslog, either your own or SaaS. Syslog brings huge capabilities
   with logs processing.
 
-- Never commit to the master branch directly (set it up into your Git
-  config). Use the simpliest Git pipeline you can imagine:
+- Never commit the master branch directly (set it up into your Git config). Use
+  the simplest Git pipeline you can imagine:
 
   ```
   master -> feature-branch -> commits -> pull request -> review -> merge
@@ -118,13 +117,19 @@
 
 - Prefer those languages that could give you a single compiled file as a result
   of you effort (both binary or bytecode). C-family, Go, Rust, Haskell,
-  Java-family are OK. PHP, Python, Ruby, Perl, JavaScript are not OK.
+  Java-family are OK. PHP, Python, Ruby, Perl, JavaScript are less OK.
+
+- Take a look at functional languages even you don't have intentions using them
+  in your daily work.
+
+- You'd better try not modern languages but rather old ones. Small-talk, Lisp,
+  OCaml would be a great choice.
 
 ### [Workspace](#workspace)
 
 - Keep you desktop free from unused items.
 
-- The more gadgets you need having around, the less you are productive. Ideally,
+- The more gadgets you need having around the less you are productive. Ideally,
   you only need your Mac connected to the Internet.
 
 - Use messagers on mobile only except those you need to communicate with your
@@ -134,7 +139,32 @@
 
 - Turn off all the notifications on you phone/desktop.
 
-- Don't work in an openspace. A room with 3-4 people around is OK.
+- Try to keep you developing tools simple. Choose text editor like Vim or Emacs
+  over IDE. Work with Git from a command line.
+
+- Don't work in open-space. A room with 3-4 people around is OK.
 
 - Don't read the news. Your friends will warn you if something really important
   happens.
+
+### [Communication](#communication)
+
+- Don't argue on Vim vs Emacs, Python vs Ruby and so on. It looks quite
+  unprofessional.
+
+- If you full of thoughts you want to share with the world, open a blog or write
+  a book. But never argue on them in social networks or messagers.
+
+- Even you are a remote worker, say Hi and Bye every time you've started or
+  finished your work day. Your team should know whether are you at the desk or
+  not.
+
+- Be always polite.
+
+- When you don't know what to say, keep silence.
+
+- Never afraid saying No.
+
+- Read about negotiations.
+
+- Invest time and money in improving your English skills.
