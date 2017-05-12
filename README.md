@@ -128,6 +128,8 @@
   master -> feature-branch -> commits -> pull request -> review -> merge
   ```
 
+- JSON is bad when configuring software: lots of braces, no comments. Take YAML.
+
 ### [Programming languages](#lang)
 
 - Prefer those languages that could give you a single compiled file as a result
