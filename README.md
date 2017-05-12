@@ -95,7 +95,7 @@
   layout leaks, you cannot open a link in a new window and they break W3C
   standards.
 
-- Even with Javascript turned off, you client must see important information on
+- Even with Javascript turned off, your client must see important information on
   their screen.
 
 - Don't make you own widgets to substitute standard ones (inputs, drop-downs,
