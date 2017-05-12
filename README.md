@@ -102,6 +102,9 @@
 - Queues might help a lot. Don't invent your own message queue facility. Use
   Rabbit, ZeroMQ or even Redis.
 
+- For message processing, use text format but not binary one. You are not Google
+  with their proto-bufs invented to break down network limitations.
+
 - Writing logs in file and `tail`ing them via SSH is a mess. Write all the logs
   into (remote) syslog, either your own or SaaS. Syslog brings huge capabilities
   with logs processing.
