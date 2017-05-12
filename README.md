@@ -62,7 +62,7 @@
   functions would be enough.
 
 - Don't use triggers to implement business logic. Such behaviour is quite
-  implicit and difficult to maintain. And business rules changes all the time.
+  implicit and difficult to maintain. And business rules change all the time.
 
 ### [Code](#code)
 
@@ -75,6 +75,7 @@
     "very-very-long-one": 3,
   }
   ```
+
 - Write unit tests for both server and UI sides immediately once you've started
   a new project.
 
@@ -82,17 +83,28 @@
   classes. Usually, structures are fast and covers the most of requirements.
 
 - Try to follow functional approach when develop a program. Avoid keeping state
-  where it can be skipped. Separate IO from a code that does pure calculations.
+  where it can be skipped. Separate IO from code that does pure calculations.
 
 ### [Frontend](#frontend)
 
 - Don't use vanilla Javascript. Use such modern technologies as ClojureScript,
-  TypeScrip or Elm to develop without a pain in the ass. Consider JS as
-  necessary evil needed under the hood to ship your application.
+  TypeScrip or Elm to develop without pain in the ass. Consider JS as necessary
+  evil running under the hood to ship your application.
 
 - Don't make SAPs (single page applications). Usually they work poorly, the
-  layout leaks, you cannot open a link in a new window what is breaking W3C
+  layout leaks, you cannot open a link in a new window and they break W3C
   standards.
+
+- Even with Javascript turned off, you client must see important information on
+  their screen.
+
+- Don't make you own widgets to substitute standard ones (inputs, drop-downs,
+  etc).
+
+- Never interrupt a user with alerts, popups, splashes.
+
+- Never claim on AdBlock enabled. It's so ridiculous. It's users choice what
+  software to use when browsing the Internet.
 
 ### [Architecture](#architecture)
 
