@@ -105,12 +105,12 @@
 - For message processing, use text format but not binary one. You are not Google
   with their proto-bufs invented to break down network limitations.
 
-- Writing logs in file and `tail`ing them via SSH is a mess. Write all the logs
-  into (remote) syslog, either your own or SaaS. Syslog brings huge capabilities
-  with logs processing.
+- Writing logs in a file and `tail`ing them via SSH is a mess. Write all the
+  logs into (remote) syslog, either your own one or any third-party one. Syslog
+  brings huge capabilities with logs processing.
 
-- Never commit the master branch directly (set it up into your Git config). Use
-  the simplest Git pipeline you can imagine:
+- Never commit to master branch directly (set that option in your Git
+  config). Use the simplest Git pipeline you can imagine:
 
   ```
   master -> feature-branch -> commits -> pull request -> review -> merge
@@ -125,7 +125,7 @@
 - Take a look at functional languages even you don't have intentions using them
   in your daily work.
 
-- You'd better try not modern languages but rather old ones. Small-talk, Lisp,
+- You'd better try not modern languages but rather old ones. Smalltalk, Lisp,
   OCaml would be a great choice.
 
 ### [Workspace](#workspace)
