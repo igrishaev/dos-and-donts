@@ -64,6 +64,14 @@
 - Don't use triggers to implement business logic. Such behaviour is quite
   implicit and difficult to maintain. And business rules change all the time.
 
+- Never use floats for currency. Either use `NUMERIC(precision, scale)` type or
+  keep your money sums in cents within `BIGINT`.
+
+- Never use string formatting operator to put parameters into a query. Today,
+  every DB library takes care of quoting them. If you need to pass a table name,
+  (what is impossible to deal with using parameters), declare a list of
+  available names and check it explicitly by occurrence in that list.
+
 ### [Code](#code)
 
 - Don't align you code with spaces like it's shown below. Use one space only.
