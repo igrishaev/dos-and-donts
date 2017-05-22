@@ -136,7 +136,12 @@
   master -> feature-branch -> commits -> pull request -> review -> merge
   ```
 
-- JSON is bad when configuring software: lots of braces, no comments. Take YAML.
+- JSON is bad for configuring software: lots of braces, lack of comments. Take
+  YAML.
+
+- Don't be afraid of long files. There is no a problem if you can navigate of
+  them quickly. Spreading more and more small files turns a project into a
+  mess. In fact, you only need to setup your editor properly.
 
 ### [Programming languages](#lang)
 
